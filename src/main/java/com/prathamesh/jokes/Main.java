@@ -23,6 +23,8 @@ public class Main {
 
     }
 
+  
+
     private void sendGet() throws Exception{
         Request request = new Request.Builder()
                 .url("https://v2.jokeapi.dev/joke/Any?amount=10")
